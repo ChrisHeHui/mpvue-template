@@ -1,2 +1,3 @@
-# mpvue-template
-这是一个小程序mpvue模板
+# mpvue-quickstart
+
+> fork 自 [vuejs-templates/webpack](https://github.com/vuejs-templates/webpack) 修改而来
