@@ -78,14 +78,14 @@
 
   > ```j
   > 你进入项目的时候所有页面的created钩子都会触发，而且页面跳转的时候不会再触发，
-  所有用小程序自带的onload()代替。比如要接收路由跳转时的带过来的keyword参数，例子如下：
+  > 所有用小程序自带的onload()代替。比如要接收路由跳转时的带过来的keyword参数，例子如下：
   > ```
 
   ![image-20181127200855473](/Users/mercerli/Library/Application Support/typora-user-images/image-20181127200855473.png)
 
   >```
-  >mounted：你如果从页面B返回页面A，页面A的mounted钩子不会触发，因为页面没有被重新加载（mpvue并没有真正的组件挂载的完整生命周期）。
-  所以请用小程序的onShow代替
+  > mounted：你如果从页面B返回页面A，页面A的mounted钩子不会触发，因为页面没有被重新加载（mpvue并没有真正的组件挂载的完整生命周期）。
+  > 所以请用小程序的onShow代替
   >```
 
   > ```最坑的是不要用v-show这个指令来指定渲染元素，失策
