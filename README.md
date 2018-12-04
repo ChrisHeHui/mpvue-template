@@ -30,9 +30,7 @@
 
 如果没有什么特殊配置，一路无脑回车就行，然后依次执行命令
 
-![image-20181130161757688](/Users/mercerli/Library/Application Support/typora-user-images/image-20181130161757688.png)
 
- 
 
 #### 打开[微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html)，如下图操作，本地预览项目，能正常显示没有报错就是跑通环境了，可以使用vscode等工具编写代码，微信开发者工具作为预览和调试的工具，改动都是热更新的
 
