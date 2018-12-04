@@ -16,11 +16,12 @@
 
 > * [Vant框架](https://youzan.github.io/vant-weapp/#/icon)
 
+
 ---
 
 
 
-#### 小程序没有单页面应用，mpvue以及一些插件只是封装。开发小程序最重要是开发的项目要尽量简单，能两个页面就完成的尽量不要开发多页面，功能尽量简洁，突出重要功能。而且也能加快微信官方的审核速度。
+### 小程序没有单页面应用，mpvue以及一些插件只是封装。开发小程序最重要是开发的项目要尽量简单，能两个页面就完成的尽量不要开发多页面，功能尽量简洁，突出重要功能。而且也能加快微信官方的审核速度。
 
 
 
@@ -34,7 +35,7 @@
 
 #### 打开[微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html)，如下图操作，本地预览项目，能正常显示没有报错就是跑通环境了，可以使用vscode等工具编写代码，微信开发者工具作为预览和调试的工具，改动都是热更新的
 
-![image-20181129195441807](/Users/mercerli/Desktop/image-20181129195441807.png)
+![image](https://github.com/Mercer-Li/mpvue-template/edit/master/README.md)
 
 * 把vant文件下载（就在这个项目这里，自行下载）放到安装的dist文件夹目录下，这样才能使用
 
