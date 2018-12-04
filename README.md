@@ -35,7 +35,7 @@
 
 如果没有什么特殊配置，一路无脑回车就行，然后依次执行命令
 <center>
-   ![image](https://github.com/Mercer-Li/mpvue-template/blob/master/docs/image/init.png)
+   ![](https://github.com/Mercer-Li/mpvue-template/blob/master/docs/image/init.png)
 </center>   
    
 
@@ -43,7 +43,7 @@
 
 * 打开[微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html)，如下图操作，本地预览项目，能正常显示没有报错就是跑通环境了，可以使用vscode等工具编写代码，微信开发者工具作为预览和调试的工具，改动都是热更新的
 <center>
-   ![image](https://github.com/Mercer-Li/mpvue-template/blob/master/docs/image/xcx.png)
+   ![](https://github.com/Mercer-Li/mpvue-template/blob/master/docs/image/xcx.png)
 </center>
 
 
@@ -51,7 +51,7 @@
 
 * 把vant文件下载（就在这个项目这里，自行下载）放到安装的dist文件夹目录下，这样才能使用
 <center>
-   ![image](https://github.com/Mercer-Li/mpvue-template/blob/master/docs/image/vant.png)
+   ![](https://github.com/Mercer-Li/mpvue-template/blob/master/docs/image/vant.png)
 </center>
 
 
@@ -61,7 +61,7 @@
 
 * src下文件存放路径说明：
 <center>
-     ![image](https://github.com/Mercer-Li/mpvue-template/blob/master/docs/image/src.png)
+     ![](https://github.com/Mercer-Li/mpvue-template/blob/master/docs/image/src.png)
 </center>
 
 
@@ -88,11 +88,11 @@
 
 * 路由配置详解：
 <center>
-     ![image](https://github.com/Mercer-Li/mpvue-template/blob/master/docs/image/vue-router.png)
+     ![](https://github.com/Mercer-Li/mpvue-template/blob/master/docs/image/vue-router.png)
 </center>
 
 
-
+---
 
 
 ### mpvue的一些注意事项：
@@ -104,7 +104,7 @@
   >所有用小程序自带的onload()代替。比如要接收路由跳转时的带过来的keyword参数，例子如下：
   > ```
 <center>
-     ![image](https://github.com/Mercer-Li/mpvue-template/blob/master/docs/image/onLoad.png)
+     ![](https://github.com/Mercer-Li/mpvue-template/blob/master/docs/image/onLoad.png)
 </center>
   >```
   >mounted：你如果从页面B返回页面A，页面A的mounted钩子不会触发，因为页面没有
@@ -131,14 +131,14 @@
 >很多组件中诸如bind:search要改为@search，以及例如搜索组件中的input的
 >alue无法实现数据双向绑定，获取值的方法如下：
 <center>
-   ![image](https://github.com/Mercer-Li/mpvue-template/blob/master/docs/image/vant-search.png)
+   ![](https://github.com/Mercer-Li/mpvue-template/blob/master/docs/image/vant-search.png)
 </center>
 <center>
-   ![image](https://github.com/Mercer-Li/mpvue-template/blob/master/docs/image/event.png)
+   ![](https://github.com/Mercer-Li/mpvue-template/blob/master/docs/image/event.png)
 </center>
 
 
-
+---
 
 
 ### 小程序的注意事项：
@@ -149,7 +149,7 @@
 
 3、不建议使用小程序的scroll-view来做视图滚动到底部触发的请求加载，建议使用onReachBottom( )来监听。比如我要在视图滚动到底部时发送一个请求，例子如下：
 <center>
-   ![image](https://github.com/Mercer-Li/mpvue-template/blob/master/docs/image/bottom.png)
+   ![](https://github.com/Mercer-Li/mpvue-template/blob/master/docs/image/bottom.png)
 </center>
 4、提交审核的时候请先看关注下当时微信官方审核的一些规则和注意事项以及提醒，一般1——3天就会有审核结果。
 
