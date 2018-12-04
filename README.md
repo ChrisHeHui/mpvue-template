@@ -17,11 +17,15 @@
 > * [Vant框架](https://youzan.github.io/vant-weapp/#/icon)
 
 
+
 ---
 
 
 
+
 ### 小程序没有单页面应用，mpvue以及一些插件只是封装。开发小程序最重要是开发的项目要尽量简单，能两个页面就完成的尽量不要开发多页面，功能尽量简洁，突出重要功能。而且也能加快微信官方的审核速度。
+
+
 
 
 
@@ -32,6 +36,10 @@
 如果没有什么特殊配置，一路无脑回车就行，然后依次执行命令
 
    ![image](https://github.com/Mercer-Li/mpvue-template/blob/master/docs/image/init.png)
+   
+   
+   
+   
 
 #### 打开[微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html)，如下图操作，本地预览项目，能正常显示没有报错就是跑通环境了，可以使用vscode等工具编写代码，微信开发者工具作为预览和调试的工具，改动都是热更新的
 
@@ -43,9 +51,16 @@
 
 
 
+
+
+
+
 * src下文件存放路径说明：
 
      ![image](https://github.com/Mercer-Li/mpvue-template/blob/master/docs/image/src.png)
+
+
+
 
 
 
@@ -65,9 +80,14 @@
 
 
 
+
+
 * 路由配置详解：
 
      ![image](https://github.com/Mercer-Li/mpvue-template/blob/master/docs/image/vue-router.png)
+
+
+
 
 
 
@@ -97,6 +117,11 @@
   > ```
 
 
+
+
+
+
+
 #### Vant的一些注意事项：
 
 >很多组件中诸如bind:search要改为@search，以及例如搜索组件中的input的
@@ -105,6 +130,9 @@
    ![image](https://github.com/Mercer-Li/mpvue-template/blob/master/docs/image/vant-search.png)
 
    ![image](https://github.com/Mercer-Li/mpvue-template/blob/master/docs/image/event.png)
+
+
+
 
 
 
