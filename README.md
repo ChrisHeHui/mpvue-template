@@ -31,21 +31,21 @@
 
 如果没有什么特殊配置，一路无脑回车就行，然后依次执行命令
 
-
+![image](https://github.com/Mercer-Li/mpvue-template/docs/image/init.png)
 
 #### 打开[微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html)，如下图操作，本地预览项目，能正常显示没有报错就是跑通环境了，可以使用vscode等工具编写代码，微信开发者工具作为预览和调试的工具，改动都是热更新的
 
-![image](https://github.com/Mercer-Li/mpvue-template/edit/master/README.md)
+![image](https://github.com/Mercer-Li/mpvue-template/docs/image/xcx.png)
 
 * 把vant文件下载（就在这个项目这里，自行下载）放到安装的dist文件夹目录下，这样才能使用
 
-![image-20181126110355743](/Users/mercerli/Library/Application Support/typora-user-images/image-20181126110355743.png)
+![image](https://github.com/Mercer-Li/mpvue-template/docs/image/vant.png)
 
 
 
 * src下文件存放路径说明：
 
-  ![image-20181127092645301](/Users/mercerli/Library/Application Support/typora-user-images/image-20181127092645301.png)
+![image](https://github.com/Mercer-Li/mpvue-template/docs/image/src.png)
 
 
 
@@ -67,7 +67,7 @@
 
 * 路由配置详解：
 
-  ![image-20181127174020633](/Users/mercerli/Library/Application Support/typora-user-images/image-20181127174020633.png)
+![image](https://github.com/Mercer-Li/mpvue-template/docs/image/vue-router.png)
 
 
 
@@ -80,7 +80,7 @@
   >所有用小程序自带的onload()代替。比如要接收路由跳转时的带过来的keyword参数，例子如下：
   > ```
 
-  ![image-20181127200855473](/Users/mercerli/Library/Application Support/typora-user-images/image-20181127200855473.png)
+ ![image](https://github.com/Mercer-Li/mpvue-template/docs/image/onLoad.png)
 
   >```
   >mounted：你如果从页面B返回页面A，页面A的mounted钩子不会触发，因为页面没有
@@ -102,9 +102,9 @@
 >很多组件中诸如bind:search要改为@search，以及例如搜索组件中的input的
 >alue无法实现数据双向绑定，获取值的方法如下：
 
-![image-20181127202507931](/Users/mercerli/Library/Application Support/typora-user-images/image-20181127202507931.png)
+ ![image](https://github.com/Mercer-Li/mpvue-template/docs/image/vant-search.png)
 
-![image-20181127202422562](/Users/mercerli/Library/Application Support/typora-user-images/image-20181127202422562.png)
+ ![image](https://github.com/Mercer-Li/mpvue-template/docs/image/event.png)
 
 
 
@@ -116,7 +116,7 @@
 
 3、不建议使用小程序的scroll-view来做视图滚动到底部触发的请求加载，建议使用onReachBottom( )来监听。比如我要在视图滚动到底部时发送一个请求，例子如下：
 
-![image-20181127205659864](/Users/mercerli/Library/Application Support/typora-user-images/image-20181127205659864.png)
+ ![image](https://github.com/Mercer-Li/mpvue-template/docs/image/bottom.png)
 
 4、提交审核的时候请先看关注下当时微信官方审核的一些规则和注意事项以及提醒，一般1——3天就会有审核结果。
 
