@@ -8,7 +8,7 @@
 
 如果没有什么特殊配置，一路无脑回车就行，然后依次执行命令
 <div align=center>
-   <img src="https://github.com/Mercer-Li/mpvue-template/blob/master/docs/image/init.png"/>
+   <img src="https://github.com/Mercer-Lee/mpvue-template/blob/master/docs/image/init.png"/>
 </div>
 
 
